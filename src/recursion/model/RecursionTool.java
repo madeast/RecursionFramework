@@ -25,4 +25,22 @@ public class RecursionTool
 		
 		
 	}
+	
+	public int getFactorialNumber(int position)
+	{
+		//Defensive code against user errors
+		if(position < 0)
+		{
+			return Integer.MIN_VALUE;
+		}
+		
+		if(position == 0)
+		{
+			return 1;
+		}
+		else
+		{
+			return position * getFactorialNumber(position - 1);
+		}
+	}
 }
