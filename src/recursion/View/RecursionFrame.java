@@ -1,6 +1,7 @@
-package recursion.View;
+package recursion.view;
 
-import recursion.Controller.*;
+import recursion.controller.*;
+
 import javax.swing.*;
 
 public class RecursionFrame extends JFrame

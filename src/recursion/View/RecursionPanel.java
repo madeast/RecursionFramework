@@ -1,8 +1,10 @@
-package recursion.View;
+package recursion.view;
 
-import recursion.Controller.*;
-import recursion.View.*;
+import recursion.controller.*;
+import recursion.view.*;
+
 import javax.swing.*;
+
 import java.awt.*;
 
 public class RecursionPanel extends JPanel

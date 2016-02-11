@@ -1,4 +1,4 @@
-package recursion.Controller;
+package recursion.controller;
 
 public class RecursionRunner
 {
