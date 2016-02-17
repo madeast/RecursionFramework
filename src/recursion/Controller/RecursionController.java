@@ -20,7 +20,7 @@ public class RecursionController
 	//Stuff the program will do on start.
 	public void start()
 	{
-		calculatedValue = Integer.toString(mathTool.getFibNumber(0));
+		calculatedValue = Double.toString(mathTool.getFibNumber(0));
 	}
 	
 	//Stuff that will do when RecursionController is called.
@@ -39,7 +39,7 @@ public class RecursionController
 	public String doFibonacci(String inputValue)
 	{
 		calculatedValue = "The Fibonacci sequence number of " + inputValue + 
-				" is " + Integer.toString(mathTool.getFibNumber(Integer.parseInt(inputValue)));
+				" is " + Double.toString(mathTool.getFibNumber(Double.parseDouble(inputValue)));
 		
 		return calculatedValue;
 		
@@ -48,7 +48,7 @@ public class RecursionController
 	public String doFactorial(String inputValue)
 	{
 		calculatedValue = "The Factorial sequence number of " + inputValue + 
-				" is " + Integer.toString(mathTool.getFactorialNumber(Integer.parseInt(inputValue)));
+				" is " + Double.toString(mathTool.getFactorialNumber(Double.parseDouble(inputValue)));
 		
 		return calculatedValue;
 	}
